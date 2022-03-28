@@ -1,7 +1,7 @@
 [package]
-name = "rust-api-template"
+name = "kafka-acls-api"
 version = "0.0.1"
-description = "Rust API Template"
+description = "Kafka ACLs API"
 edition = "2021"
 
 [dependencies]
