@@ -1,6 +1,6 @@
 [package]
 name = "kafka-acls-api"
-version = "0.0.1"
+version = "0.0.2"
 description = "Kafka ACLs API"
 edition = "2021"
 
