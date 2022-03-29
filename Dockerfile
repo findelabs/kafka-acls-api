@@ -8,7 +8,7 @@ COPY Cargo.toml /app
 
 RUN apt-get update && apt-get install -y libssl-dev pkg-config
 RUN cargo install --path /app --root /app
-RUN strip app/bin/proxima
+RUN strip app/bin/kafka-acls-api
 
 FROM debian:bullseye-slim
 WORKDIR /app
